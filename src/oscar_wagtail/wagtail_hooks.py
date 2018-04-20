@@ -2,8 +2,8 @@ from django.conf import settings
 from django.core import urlresolvers
 from django.core.urlresolvers import reverse
 from django.utils.html import format_html
-from wagtail.wagtailadmin.menu import MenuItem
-from wagtail.wagtailcore import hooks
+from wagtail.admin.menu import MenuItem
+from wagtail.core import hooks
 
 from oscar_wagtail.edit_handlers import PageLinkHandler
 

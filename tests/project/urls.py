@@ -1,7 +1,7 @@
 from django.conf.urls import include, url
 from django.contrib import admin
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
-from wagtail.wagtailadmin import urls as wagtailadmin_urls
+from wagtail.admin import urls as wagtailadmin_urls
 from oscar.app import application
 
 from oscar_wagtail import urls as oscar_wagtail_urls
